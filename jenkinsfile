@@ -40,7 +40,7 @@ pipeline {
             }
         }
         stage('Deploy') {
-            
+
             input {
                 message "Should we continue?"
                 ok "Yes, we should."
@@ -70,4 +70,6 @@ pipeline {
             echo 'FAILURE'
         }
     }
+} 
+
 }
