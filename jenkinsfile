@@ -17,7 +17,7 @@ pipeline {
                 script{
                     sh """
                   echo 'Building..in $COURSE' 
-                  sleep 10
+                  
                   """ 
                 }
             }
